@@ -16,10 +16,8 @@ description: >-
 
 license:
   # https://spdx.org/licenses/
+  # https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html
   - GPL-2.0-or-later
-
-license_file: |-
-  'https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html'
 
 tags:
   - linux
@@ -51,3 +49,6 @@ build_ignore:
   - .gitignore
   - roles/*/.yamllint
   - roles/*/.git
+  - .pre-commit*
+  - .git*
+  - roles/*/.travis.yml

@@ -21,3 +21,6 @@ Sessionx.vim
 tags
 # Persistent undo
 [._]*.un~
+
+# local files
+*.tar.gz
