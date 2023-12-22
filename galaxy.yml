@@ -1,0 +1,53 @@
+---
+namespace: mrbrandao
+name: server
+version: 0.1.0
+readme: README.md
+authors:
+  - Igor Brandao <mrbrandao>
+
+description: >-
+  Install and configure or create a mixed set of servers and Network systems,
+  such as, deploying kubernets clusters, creating standalone servers, deploy
+  network daemons such as `samba`, `nfs`, `dns`.
+  This collections is designed to support standalone roles as a git submodule
+  which alows independent maintance of the internal componets of the collection
+  such as `plugins`, `roles` and others.
+
+license:
+  # https://spdx.org/licenses/
+  - GPL-2.0-or-later
+
+license_file: |-
+  'https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html'
+
+tags:
+  - linux
+  - server
+  - k8s
+  - kubernets
+  - security
+  - network
+  - homelab
+  - automation
+  - samba
+
+dependencies:
+  ansible.posix: ">=1.5.4,<2.0.0"
+
+repository: |-
+  https://github.com/mrbrandao/server
+
+documentation: https://github.com/mrbrandao/server
+
+homepage: |-
+  https://github.com/mrbrandao/server
+
+issues: |-
+  https://github.com/mrbrandao/server/issues
+
+build_ignore:
+  - roles/*/molecule
+  - .gitignore
+  - roles/*/.yamllint
+  - roles/*/.git
