@@ -48,6 +48,25 @@ ansible-galaxy collection build
 git clone --recurse-submodule https://github.com/mrbrandao/server
 ```
 
+* Using the [`Makefile`](Makefile):  
+_alternativelly is possible to build and push the collection using the
+`Makefile` e.g:_  
+
+```bash
+# build the collection
+make build
+```
+
+```bash
+# cleaning the built collection
+make clean
+```
+
+```bash
+# publish the collection to ansible-galaxy
+make push
+```
+
 #### Collection Roles:
 
 TDB
