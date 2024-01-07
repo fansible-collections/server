@@ -1,3 +1,6 @@
 [submodule "roles/samba"]
 	path = roles/samba
 	url = git@github.com:mrbrandao/samba.git
+[submodule "roles/transmission"]
+	path = roles/transmission
+	url = git@github.com:mrbrandao/transmission.git

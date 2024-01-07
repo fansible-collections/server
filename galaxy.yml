@@ -1,7 +1,7 @@
 ---
 namespace: mrbrandao
 name: server
-version: 0.1.0
+version: 0.1.1
 readme: README.md
 authors:
   - Igor Brandao <mrbrandao>
