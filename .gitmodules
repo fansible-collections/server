@@ -1,9 +1,9 @@
 [submodule "roles/samba"]
 	path = roles/samba
-	url = git@github.com:mrbrandao/samba.git
+	url = https://github.com/mrbrandao-roles/samba.git
 [submodule "roles/transmission"]
 	path = roles/transmission
-	url = git@github.com:mrbrandao/transmission.git
+	url = https://github.com/mrbrandao-roles/transmission.git
 [submodule "roles/gogs-quadlet"]
 	path = roles/gogs-quadlet
 	url = https://github.com/mrbrandao/gogs-quadlet.git
