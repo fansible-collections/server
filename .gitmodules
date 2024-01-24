@@ -10,3 +10,6 @@
 [submodule "roles/unifi"]
 	path = roles/unifi
 	url = https://github.com/mrbrandao/unifi.git
+[submodule "roles/gogs"]
+	path = roles/gogs
+	url = https://github.com/mrbrandao-roles/gogs.git
