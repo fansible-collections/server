@@ -1,15 +1,15 @@
 [submodule "roles/samba"]
 	path = roles/samba
-	url = https://github.com/mrbrandao-roles/samba.git
+	url = https://github.com/fansible-roles/samba.git
 [submodule "roles/transmission"]
 	path = roles/transmission
-	url = https://github.com/mrbrandao-roles/transmission.git
+	url = https://github.com/fansible-roles/transmission.git
 [submodule "roles/gogs-quadlet"]
 	path = roles/gogs-quadlet
 	url = https://github.com/mrbrandao/gogs-quadlet.git
 [submodule "roles/unifi"]
 	path = roles/unifi
-	url = https://github.com/mrbrandao/unifi.git
+	url = https://github.com/fansible-roles/unifi.git
 [submodule "roles/gogs"]
 	path = roles/gogs
-	url = https://github.com/mrbrandao-roles/gogs.git
+	url = https://github.com/fansible-roles/gogs.git
