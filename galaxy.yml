@@ -1,7 +1,7 @@
 ---
 namespace: mrbrandao
 name: server
-version: 0.1.1
+version: 0.1.2
 readme: README.md
 authors:
   - Igor Brandao <mrbrandao>
@@ -24,11 +24,15 @@ tags:
   - server
   - k8s
   - kubernets
+  - podman
   - security
   - network
   - homelab
   - automation
   - samba
+  - cat_printer
+  - gogs
+  - quadlet
 
 dependencies:
   ansible.posix: ">=1.5.4,<2.0.0"
