@@ -13,3 +13,6 @@
 [submodule "roles/gogs"]
 	path = roles/gogs
 	url = https://github.com/fansible-roles/gogs.git
+[submodule "roles/cat_printer"]
+	path = roles/cat_printer
+	url = https://github.com/fansible-roles/cat_printer.git
