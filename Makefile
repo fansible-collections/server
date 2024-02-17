@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-NAME := mrbrandao-server
+NAME := fansilet-homelab
 VERSION := $(shell awk '/version:/ {print $$2}' galaxy.yml)
 
 .PHONY: help
